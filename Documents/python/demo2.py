@@ -1,0 +1,2 @@
+a="abhijeet"
+print(a)
