@@ -26,4 +26,8 @@ print("\nRDS Instances:")
 response = rds_console_access.describe_db_instances()
 for instance in response['DBInstances']:
     print(instance['DBInstanceIdentifier'])
+    
+lit="Abhijjet"
+for i in lit:
+    print(i)
 
