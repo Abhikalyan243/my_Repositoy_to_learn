@@ -19,6 +19,10 @@ response = ec2_var.run_instances(
             MaxCount=1
 )
 
+
+response = ec2_var.run_instances(
+            ImageId='ami-051f8a213df8bc089'
+)
 # for reservation in result:
 #     instances = reservation["Instances"]
 #     # Iterate over the instances in each reservation
