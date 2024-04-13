@@ -19,10 +19,17 @@ response = ec2_var.run_instances(
             MaxCount=1
 )
 
-
-response = ec2_var.run_instances(
+#ec2 stopping command
+response = ec2_var.stop_instances(
             ImageId='ami-051f8a213df8bc089'
 )
+
+#ec2 treminate your instance command
+response = ec2_var.terminate_instances(
+            ImageId='ami-051f8a213df8bc089'
+)
+
+
 # for reservation in result:
 #     instances = reservation["Instances"]
 #     # Iterate over the instances in each reservation
