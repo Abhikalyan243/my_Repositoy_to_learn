@@ -1,2 +1,0 @@
-a="abhijeet"
-print(a)
